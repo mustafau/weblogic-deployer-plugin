@@ -35,11 +35,11 @@
 	          	</f:repeatable>
 				</f:entry>
 			</f:nested>
-			
+
 			<f:entry title="${%MustExitOnFailure}" field="mustExitOnFailure">
 		  		<f:checkbox name="mustExitOnFailure" checked="${instance.mustExitOnFailure}" />
 		  	</f:entry>
-			
+
 			<f:entry title="${%ForceStopOnFirstFailure}" field="forceStopOnFirstFailure">
 		  		<f:checkbox name="forceStopOnFirstFailure" checked="${instance.forceStopOnFirstFailure}" />
 		  	</f:entry>
@@ -63,7 +63,7 @@
 			<f:entry title="${%DeployedProjectsDependencies}" description="${%DeployedProjectsDependenciesDescription}" field="deployedProjectsDependencies">
 				<f:textbox/>
 			</f:entry>
-			
+
 		</j:when>
 		<j:otherwise>
 			<!-- no configuration. this will be an error, so warn the user now -->
